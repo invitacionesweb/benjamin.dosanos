@@ -1,5 +1,5 @@
 :root {
-    --color-principal:#FBFAF8;
+    --color-principal:#ffffff;
     --color-secundario:#85a4cf;
     --color-terciario:#85a4cf;
     --font-principal:'Schoolbell', cursive;
@@ -243,6 +243,18 @@ main p {
     max-width: 350px;
     font-size: 1.2rem;
     
+}
+.main2 {
+     width: 100%;
+    height: 80vh;
+    padding: 0;
+    margin: 0;
+    background-image: url(./img/1.png);
+    color: var(--color-secundario);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 .galeria {
     width: 100%;
